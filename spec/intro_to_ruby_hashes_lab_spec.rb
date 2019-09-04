@@ -1,6 +1,34 @@
 require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
 
+def new_hash
+  hash1={}
+end
+
+def my_hash
+  hash2={socks:"Ive got holes for days"}
+end
+
+def pioneer
+  hash3={:name => "Grace Hopper"}
+end
+
+def my_hash_creator(key,value)
+  hash4={:key=>value}
+end
+
+def read_from_hash(hash,key)
+  hash[key]
+end
+
+def update_counting_hash(hash,key)
+  if hash[key]
+    hash[key]+=1
+  else
+    hash[key]=1
+  end
+end
+
 describe "working with hashes" do
 
   describe "instantiating" do
