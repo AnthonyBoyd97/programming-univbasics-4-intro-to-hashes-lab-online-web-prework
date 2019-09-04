@@ -13,6 +13,10 @@ def pioneer
   hash3={:name => "Grace Hopper"}
 end
 
+def id_generator
+  hash69={:id=>69}
+end
+
 def my_hash_creator(key,value)
   hash4={:key=>value}
 end
